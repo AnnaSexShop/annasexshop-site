@@ -1,40 +1,568 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
 
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça as categorias de lubrificantes da Anna Sex Shop e encontre produtos para diferentes sensações. Visite a Loja Oficial e use o cupom ANNA5 para obter 5% de desconto.">
+    <meta name="keywords" content="lubrificantes íntimos, lubrificante excitante, lubrificante anestésico, lubrificante beijável, Anna Sex Shop, cupom ANNA5">
+    <meta name="author" content="Anna Sex Shop">
+    <meta name="theme-color" content="#0f1115">
 
-    <title>Anna Sex Shop | Portal Premium</title>
+```
+<title>Lubrificantes Íntimos | Anna Sex Shop</title>
 
-    <meta name="description"
-        content="Portal Premium da Anna Sex Shop com informações completas, benefícios, guias e produtos exclusivos.">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    body {
+        background: #0f1115;
+        color: #fff;
+        min-height: 100vh;
+    }
+
+    .container {
+        width: min(1200px, 92%);
+        margin: auto;
+    }
+
+    header {
+        background: #14171d;
+        border-bottom: 1px solid #272c35;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 18px 0;
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: .5px;
+    }
+
+    .logo span {
+        color: #8ec5ff;
+    }
+
+    .top-actions {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        text-decoration: none;
+        color: #fff;
+        background: #232a35;
+        border: 1px solid #334052;
+        padding: 12px 17px;
+        border-radius: 14px;
+        font-weight: bold;
+        transition: .25s ease;
+    }
+
+    .btn:hover {
+        transform: translateY(-2px);
+        background: #2d3746;
+    }
+
+    .btn-whatsapp {
+        background: #173626;
+        border-color: #2b6a45;
+    }
+
+    .btn-whatsapp:hover {
+        background: #205236;
+    }
+
+    .hero {
+        padding: 55px 0 30px;
+    }
+
+    .hero-box {
+        background: linear-gradient(135deg, #171b22, #202633);
+        border: 1px solid #2b3340;
+        border-radius: 24px;
+        padding: 48px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: clamp(34px, 5vw, 52px);
+        margin-bottom: 16px;
+    }
+
+    .hero p {
+        color: #c2cad5;
+        font-size: 18px;
+        line-height: 1.7;
+        max-width: 760px;
+        margin: auto;
+    }
+
+    .coupon {
+        margin: 28px auto 0;
+        max-width: 700px;
+        padding: 20px 24px;
+        border: 1px solid #5d4777;
+        border-radius: 18px;
+        background: linear-gradient(135deg, #241b30, #171b22);
+        box-shadow: 0 0 28px rgba(142, 95, 190, .12);
+    }
+
+    .coupon strong {
+        display: block;
+        font-size: 22px;
+        margin-bottom: 7px;
+    }
+
+    .coupon span {
+        color: #d4c4e8;
+        line-height: 1.6;
+    }
+
+    .coupon-code {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 8px 14px;
+        border-radius: 10px;
+        background: #8ec5ff;
+        color: #10141a;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .section {
+        margin: 32px 0 55px;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .section-title p {
+        color: #aeb8c4;
+        line-height: 1.6;
+    }
+
+    .category-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+
+    .category-card {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        background: #171b22;
+        border: 1px solid #2b3340;
+        border-radius: 22px;
+        text-decoration: none;
+        color: #fff;
+        transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+    }
+
+    .category-card:hover {
+        transform: translateY(-7px);
+        border-color: #53657d;
+        box-shadow: 0 18px 35px rgba(0, 0, 0, .28);
+    }
+
+    .category-card img {
+        display: block;
+        width: 100%;
+        height: 340px;
+        object-fit: contain;
+        object-position: center top;
+        padding: 10px;
+        background: #11151d;
+    }
+
+    .category-content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .category-content h3 {
+        font-size: 23px;
+        margin-bottom: 8px;
+    }
+
+    .category-content p {
+        color: #b8c1cc;
+        line-height: 1.5;
+        margin-bottom: 16px;
+    }
+
+    .category-link {
+        display: inline-block;
+        color: #8ec5ff;
+        font-weight: bold;
+    }
+
+    .contact-box {
+        margin: 0 0 55px;
+        background: #14171d;
+        border: 1px solid #2b3340;
+        border-radius: 22px;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .contact-box h2 {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+
+    .contact-box p {
+        color: #b8c1cc;
+        line-height: 1.7;
+        margin-bottom: 22px;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        flex-wrap: wrap;
+        margin-bottom: 22px;
+    }
+
+    .info-item {
+        background: #1b2028;
+        border: 1px solid #303947;
+        border-radius: 14px;
+        padding: 14px 18px;
+        color: #d4dbe4;
+    }
+
+    .info-item strong {
+        display: block;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    footer {
+        border-top: 1px solid #272c35;
+        text-align: center;
+        color: #9ba5b0;
+        padding: 35px 0 95px;
+        line-height: 1.8;
+    }
+
+    footer a {
+        color: #8ec5ff;
+        text-decoration: none;
+    }
+
+    .whatsapp-float {
+        position: fixed;
+        right: 22px;
+        bottom: 22px;
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        padding: 14px 18px;
+        border-radius: 999px;
+        background: #25d366;
+        color: #061b0d;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, .35);
+        transition: .25s ease;
+    }
+
+    .whatsapp-float:hover {
+        transform: translateY(-3px) scale(1.02);
+    }
+
+    @media (max-width: 900px) {
+        .category-grid {
+            grid-template-columns: 1fr;
+            max-width: 560px;
+            margin: auto;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .topbar {
+            flex-direction: column;
+        }
+
+        .top-actions {
+            justify-content: center;
+        }
+
+        .hero-box {
+            padding: 32px 22px;
+        }
+
+        .hero p {
+            font-size: 16px;
+        }
+
+        .whatsapp-float {
+            right: 14px;
+            bottom: 14px;
+            padding: 13px 16px;
+        }
+    }
+</style>
+```
+
 </head>
 
 <body>
 
-    <header>
-        <h1>Anna Sex Shop</h1>
-        <p>Portal Premium de Produtos</p>
-    </header>
+```
+<!-- CABEÇALHO -->
+<header>
+    <div class="container topbar">
+        <div class="logo">ANNA <span>SEX SHOP</span></div>
 
-    <main>
-        <h2>Em breve</h2>
+        <div class="top-actions">
+            <a class="btn btn-whatsapp whatsapp-link" href="#" target="_blank" rel="noopener">
+                💬 WhatsApp
+            </a>
+
+            <a class="btn" href="https://www.anna.com.br" target="_blank" rel="noopener">
+                🛍️ Loja Oficial
+            </a>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <!-- APRESENTAÇÃO -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-box">
+                <h1>Lubrificantes Íntimos</h1>
+
+                <p>
+                    Descubra diferentes experiências e sensações através das categorias de lubrificantes da Anna Sex Shop.
+                    Conheça os produtos e, para comprar, visite nossa Loja Oficial.
+                </p>
+
+                <div class="coupon">
+                    <strong>🎁 5% DE DESCONTO NA LOJA OFICIAL</strong>
+
+                    <span>
+                        Use o cupom abaixo ao finalizar sua compra em
+                        <strong style="display:inline; font-size:inherit;">
+                            www.anna.com.br
+                        </strong>.
+                    </span>
+
+                    <div class="coupon-code">ANNA5</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATEGORIAS -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Escolha uma categoria</h2>
+                <p>Explore nossas opções e encontre o produto ideal para você.</p>
+            </div>
+
+            <div class="category-grid">
+
+                <a class="category-card" href="lubrificante-excitante.html">
+                    <img src="imagens/card-excitante.png"
+                         alt="Lubrificantes excitantes — Diaba, Xana Loka e Dark Grey"
+                         loading="lazy">
+
+                    <div class="category-content">
+                        <h3>🔥 Excitantes</h3>
+                        <p>
+                            Produtos para explorar novas sensações e intensificar a experiência.
+                        </p>
+                        <span class="category-link">
+                            Conhecer categoria →
+                        </span>
+                    </div>
+                </a>
+
+                <a class="category-card" href="lubrificante-anestesico.html">
+                    <img src="imagens/card-anestesico.png"
+                         alt="Lubrificantes anestésicos — Sensitive, Kuloko e No Talo"
+                         loading="lazy">
+
+                    <div class="category-content">
+                        <h3>🧴 Anestésicos</h3>
+                        <p>
+                            Conheça opções selecionadas da categoria de lubrificantes anestésicos.
+                        </p>
+                        <span class="category-link">
+                            Conhecer categoria →
+                        </span>
+                    </div>
+                </a>
+
+                <a class="category-card" href="lubrificante-beijavel.html">
+                    <img src="imagens/card-beijavel.png"
+                         alt="Lubrificantes beijáveis com sabores variados"
+                         loading="lazy">
+
+                    <div class="category-content">
+                        <h3>💋 Beijáveis</h3>
+                        <p>
+                            Sabores e aromas variados para uma experiência mais divertida.
+                        </p>
+                        <span class="category-link">
+                            Conhecer categoria →
+                        </span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="container">
+        <div class="contact-box">
+
+            <h2>Ficou com alguma dúvida?</h2>
+
+            <p>
+                Fale conosco pelo WhatsApp ou visite nossa loja física em Ribeirão Preto.
+                Para realizar sua compra online, acesse a Loja Oficial.
+            </p>
+
+            <div class="contact-info">
+
+                <div class="info-item">
+                    <strong>📍 Endereço</strong>
+                    Rua Lafaiete, 897 — Centro<br>
+                    Ribeirão Preto — SP
+                </div>
+
+                <div class="info-item">
+                    <strong>💬 WhatsApp</strong>
+                    (16) 99119-6897
+                </div>
+
+            </div>
+
+            <div class="top-actions" style="justify-content:center;">
+
+                <a class="btn btn-whatsapp whatsapp-link"
+                   href="#"
+                   target="_blank"
+                   rel="noopener">
+                    Falar pelo WhatsApp →
+                </a>
+
+                <a class="btn"
+                   href="https://www.anna.com.br"
+                   target="_blank"
+                   rel="noopener">
+                    Visitar Loja Oficial →
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- RODAPÉ -->
+<footer>
+
+    <div class="container">
+
+        <p><strong>ANNA SEX SHOP</strong></p>
 
         <p>
-            Estamos preparando uma experiência completa com produtos,
-            categorias, guias e conteúdos exclusivos.
+            Rua Lafaiete, 897 — Centro • Ribeirão Preto — SP
         </p>
 
-        <a href="https://www.anna.com.br" target="_blank">
-            Comprar na Loja Oficial
-        </a>
-    </main>
+        <p>
+            WhatsApp: (16) 99119-6897
+        </p>
 
-    <script src="assets/js/main.js"></script>
+        <p>
+            🎁 Use o cupom <strong>ANNA5</strong>
+            e ganhe 5% de desconto na Loja Oficial.
+        </p>
+
+        <p>
+            <a href="https://www.anna.com.br"
+               target="_blank"
+               rel="noopener">
+                www.anna.com.br
+            </a>
+        </p>
+
+    </div>
+
+</footer>
+
+<!-- WHATSAPP FLUTUANTE -->
+<a class="whatsapp-float whatsapp-link"
+   href="#"
+   target="_blank"
+   rel="noopener"
+   aria-label="Falar com a Anna Sex Shop pelo WhatsApp">
+
+    💬 Fale conosco
+
+</a>
+
+<!-- SCRIPT DO WHATSAPP -->
+<script>
+
+    const numeroWhatsApp = "5516991196897";
+
+    const mensagemWhatsApp =
+        "Olá! Vim pelo site de divulgação da Anna Sex Shop e gostaria de tirar uma dúvida.";
+
+    const linkWhatsApp =
+        "https://wa.me/" +
+        numeroWhatsApp +
+        "?text=" +
+        encodeURIComponent(mensagemWhatsApp);
+
+    document.querySelectorAll(".whatsapp-link").forEach(function (link) {
+
+        link.href = linkWhatsApp;
+
+    });
+
+</script>
+```
 
 </body>
-
 </html>
